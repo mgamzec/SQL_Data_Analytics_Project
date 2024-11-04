@@ -43,9 +43,9 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
 - Database Running Locally
 
 #### Steps:
-1. Create a new conda environment with `ipykernel` and `pandas`:
+1. Create a new conda environment with `ipykernel`, `pandas`, and `matplotlib`:
 > ```
-> conda create -n sql_course python=3.10 ipykernel pandas
+> conda create -n sql_course python=3.10 ipykernel pandas matplotlib
 > ```
 2. Activate the environment:
 > ```
