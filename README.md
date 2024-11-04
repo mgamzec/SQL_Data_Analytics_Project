@@ -28,10 +28,10 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
 6. In Object Explorer, right-click on the `contoso_100k` database > "PSQL Tool".
 7. In the PSQL Tools Window, enter `\i [path to contoso_100k.sql]` and press enter.
 > ```
-> \i '/Users/lukebarousse/Desktop/contoso 100k.sql'
+> \i '/Users/lukebarousse/Desktop/contoso_100k.sql'
 > ```
 8. In the Query Tool, set default password for the `postgres` user to `password`.  
- **⚠ If you have sensitive information in your database DO NOTdo this step. ⚠️**
+ **⚠ If you have sensitive information in your server DO NOT do this step ⚠️**
 > ```
 > ALTER USER postgres WITH PASSWORD 'password';
 > ```
