@@ -21,12 +21,19 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
 2. Open pgAdmin 4.
 3. In Object Explorer, connect to your PostgreSQL server.
 4. Right-click on "Databases" > "Create" > "Database...".  
+
 <img src="./0_Resources/images/pgAdmin_CreateDatabase.gif" alt="Create Database" width="25%" height="auto">
+
 5. Enter `contoso_100k`for "Database" and click "Save".
 6. In Object Explorer, right-click on the `contoso_100k` database > "PSQL Tool".
 7. In the PSQL Tools Window, enter `\i [path to contoso_100k.sql]` and press enter.
 > ```
 > \i '/Users/lukebarousse/Desktop/contoso 100k.sql'
+> ```
+8. In the Query Tool, set default password for the `postgres` user to `password`.  
+ **⚠ If you have sensitive information in your database DO NOTdo this step. ⚠️**
+> ```
+> ALTER USER postgres WITH PASSWORD 'password';
 > ```
 
 ## Run SQL Locally in Jupyter Notebook
