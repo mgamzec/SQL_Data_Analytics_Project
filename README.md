@@ -11,6 +11,50 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
 
 👷 Section Under Construction
 
+## Load Database Locally
+#### Prerequisites:
+- [PostgreSQL Installed](https://www.postgresql.org/download/)
+- [pgAdmin Installed](https://www.pgadmin.org/download/)
+
+#### Steps:
+1. Download the [Contoso database](https://github.com/lukebarousse/Int_SQL_Data_Analytics_Course/releases).
+2. Open pgAdmin 4.
+3. In Object Explorer, connect to your PostgreSQL server.
+4. Right-click on "Databases" > "Create" > "Database...".  
+<img src="./0_Resources/images/pgAdmin_CreateDatabase.gif" alt="Create Database" width="25%" height="auto">
+5. Enter `contoso_100k`for "Database" and click "Save".
+6. In Object Explorer, right-click on the `contoso_100k` database > "PSQL Tool".
+7. In the PSQL Tools Window, enter `\i [path to contoso_100k.sql]` and press enter.
+> ```
+> \i '/Users/lukebarousse/Desktop/contoso 100k.sql'
+> ```
+
+## Run SQL Locally in Jupyter Notebook
+#### Prerequisites:
+- [PostgreSQL Installed](https://www.postgresql.org/download/)
+- [Anaconda Installed](https://www.anaconda.com/products/distribution)
+- Database Running Locally
+
+#### Steps:
+1. Create a new conda environment with `ipykernel` and `pandas`:
+> ```
+> conda create -n sql_course python=3.10 ipykernel pandas
+> ```
+2. Activate the environment:
+> ```
+> conda activate sql_course
+> ```
+3. Install the `jupysql` and `psycopg2` packages:
+> ```
+> conda install -c conda-forge jupysql 
+> conda install -c anaconda psycopg2
+> ```
+4. If necessary, downgrade `prettytable` to 3.11.0 due to [this issue](https://github.com/ploomber/jupysql/issues/1038):
+> ```
+> conda install -c conda-forge prettytable=3.11.0
+> ```
+5. Activate the `sql_course` environment in the notebook.
+
 ## Found a Typo? Want to Contribute?
 - If you find an error in this repo, please feel free to make a pull request by:
     - Forking the repo
