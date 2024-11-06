@@ -55,9 +55,9 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
 > ```
 > conda install -c conda-forge jupysql psycopg2
 > ```
-4. If necessary, downgrade `prettytable` to 3.11.0 due to [this issue](https://github.com/ploomber/jupysql/issues/1038):
+4. Necessary due to [this issue](https://github.com/ploomber/jupysql/issues/1038):
 > ```
-> conda install -c conda-forge prettytable=3.11.0
+> pip install --upgrade jupysql
 > ```
 5. Activate the `sql_course` environment in the notebook.
 
