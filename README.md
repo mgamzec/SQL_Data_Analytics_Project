@@ -45,7 +45,7 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
 #### Steps:
 1. Create a new conda environment with `ipykernel`, `pandas`, and `matplotlib`:
 > ```
-> conda create -n sql_course python=3.10 ipykernel pandas matplotlib
+> conda create -n sql_course python=3.11 ipykernel pandas matplotlib
 > ```
 2. Activate the environment:
 > ```
@@ -53,8 +53,7 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
 > ```
 3. Install the `jupysql` and `psycopg2` packages:
 > ```
-> conda install -c conda-forge jupysql 
-> conda install -c anaconda psycopg2
+> conda install -c conda-forge jupysql psycopg2
 > ```
 4. If necessary, downgrade `prettytable` to 3.11.0 due to [this issue](https://github.com/ploomber/jupysql/issues/1038):
 > ```
