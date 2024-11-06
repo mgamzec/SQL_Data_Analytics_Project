@@ -55,7 +55,7 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
 > ```
 > conda install -c conda-forge jupysql psycopg2
 > ```
-4. Necessary due to [this issue](https://github.com/ploomber/jupysql/issues/1038):
+4. Upgrade `jupysql`, necessary due to [this issue](https://github.com/ploomber/jupysql/issues/1038):
 > ```
 > pip install --upgrade jupysql
 > ```
