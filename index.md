@@ -1,16 +1,16 @@
-# Course Files: Intermediate SQL Data Analytics Course
+# Course Files: Intermediate SQL for Data Analytics
 
 ## Intro Chapter
 
  - [Intro](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/0_Intro/1_Intro.ipynb)
  - [Jupyter Notebooks](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/0_Intro/2_Jupyter_Notebooks.ipynb)
- - [Running SQL](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/0_Intro/3_Running_SQL.ipynb)
- - [Table Overview](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/0_Intro/4_Table_Overview.ipynb)
+ - [Table Overview](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/0_Intro/3_Table_Overview.ipynb)
 
 ## Pivot With Case Statements Chapter
 
  - [Count Aggregation](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/1_Count_Aggregation.ipynb)
  - [Sum Aggregation](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/2_Sum_Aggregation.ipynb)
+ - [Pivot With Multiple Case When](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/3_Pivot_With_Multiple_Case_When.ipynb)
 
 ## Date Calculations Chapter
 
