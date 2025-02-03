@@ -9,9 +9,20 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
 
 ## Table of Contents
 
-👷 Section Under Construction
+👷👷👷 Section Under Construction 👷👷👷
 
-## Load Database Locally
+## How to Run SQL Files
+### Method 1️⃣: Run in Google Colab (Recommended)
+#### Prerequisites:
+- Google Account
+
+#### Steps:
+1. Click the "Open in Colab" button at top of any notebook.
+![Open in Colab](./Resources/images/open_in_colab.png)
+2. Run all cells in the notebook.
+---
+### Method 2️⃣: Run Database Locally w/ PGAdmin
+*Note: Second half of course uses this method.*
 #### Prerequisites:
 - [PostgreSQL Installed](https://www.postgresql.org/download/)
 - [pgAdmin Installed](https://www.pgadmin.org/download/)
@@ -35,8 +46,8 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
 > ```
 > ALTER USER postgres WITH PASSWORD 'password';
 > ```
-
-## Run SQL Locally in Jupyter Notebook
+---
+### Method 3️⃣: Run SQL Locally in Jupyter Notebook (Advanced)
 #### Prerequisites:
 - [PostgreSQL Installed](https://www.postgresql.org/download/)
 - [Anaconda Installed](https://www.anaconda.com/products/distribution)
