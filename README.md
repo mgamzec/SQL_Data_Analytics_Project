@@ -10,6 +10,9 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
 ## Table of Contents
 
 👷👷👷 Section Under Construction 👷👷👷
+> Note: Add Open in Colab button to each notebook.
+
+1. [About the Course](0_Intro/1_About_Course.ipynb) - [Open in Colab](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/0_Intro/1_About_Course.ipynb)
 
 ## How to Run SQL Files
 ### Method 1️⃣: Run in Google Colab (Recommended)
