@@ -2,9 +2,9 @@
 
 ## Intro Chapter
 
- - [Intro](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/0_Intro/1_Intro.ipynb)
- - [Jupyter Notebooks](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/0_Intro/2_Jupyter_Notebooks.ipynb)
- - [Table Overview](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/0_Intro/3_Table_Overview.ipynb)
+ - [About Course](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/0_Intro/1_About_Course.ipynb)
+ - [Colab Notebooks](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/0_Intro/2_Colab_Notebooks.ipynb)
+ - [Database Overview](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/0_Intro/3_Database_Overview.ipynb)
 
 ## Pivot With Case Statements Chapter
 
@@ -34,11 +34,12 @@
 ## Views Chapter
 
  - [View Intro](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/5_Views/1_View_Intro.ipynb)
+ - [View Project](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/5_Views/2_View_Project.ipynb)
 
 ## Data Cleaning Chapter
 
  - [Handling Nulls](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/6_Data_Cleaning/1_Handling_Nulls.ipynb)
- - [Strings](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/6_Data_Cleaning/2_Strings.ipynb)
+ - [String Formatting](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/6_Data_Cleaning/2_String_Formatting.ipynb)
 
 ## Basic Query Optimization Chapter
 
