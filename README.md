@@ -44,8 +44,8 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
 > ```
 > \i '/Users/lukebarousse/Desktop/contoso_100k.sql'
 > ```
-8. In the Query Tool, set default password for the `postgres` user to `password`.  
- **⚠ If you have sensitive information in your server DO NOT do this step ⚠️**
+8. If necessary, in the Query Tool, set default password for the `postgres` user to `password`.  
+ **⚠ If you have sensitive information in your server DO NOT do this step; also not required if this is already your password ⚠️**
 > ```
 > ALTER USER postgres WITH PASSWORD 'password';
 > ```
