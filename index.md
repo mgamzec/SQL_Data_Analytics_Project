@@ -8,10 +8,10 @@
 
 ## Pivot With Case Statements Chapter
 
- - [Count Aggregation](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/1_Count_Aggregation.ipynb)
- - [Sum Aggregation](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/2_Sum_Aggregation.ipynb)
- - [Other Aggregations](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/3_Other_Aggregations.ipynb)
- - [Conditional Case Statements](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/4_Conditional_Case_Statements.ipynb)
+ - [Basic Aggregation Count](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/1.1_Basic_Aggregation_Count.ipynb)
+ - [Basic Aggregation Sum](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/1.2_Basic_Aggregation_Sum.ipynb)
+ - [Statistical Aggregations](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/2_Statistical_Aggregations.ipynb)
+ - [Advanced Case Segmentation](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/3_Advanced_Case_Segmentation.ipynb)
 
 ## Date Calculations Chapter
 
@@ -27,9 +27,10 @@
  - [Lag Lead](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/3_Windows_Functions/4_Lag_Lead.ipynb)
  - [Frame Clause](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/3_Windows_Functions/5_Frame_Clause.ipynb)
 
-## pgAdmin Chapter
+## Local DB Setup Chapter
 
- - [Using pgAdmin](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/4_pgAdmin/1_Using_pgAdmin.ipynb)
+ - [Install PostgreSQL](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/4_Local_DB_Setup/1_Install_PostgreSQL.ipynb)
+ - [Install DBeaver](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/4_Local_DB_Setup/2_Install_DBeaver.ipynb)
 
 ## Views Chapter
 
