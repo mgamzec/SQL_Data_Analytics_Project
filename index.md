@@ -11,7 +11,7 @@
  - [Basic Aggregation Count](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/1.1_Basic_Aggregation_Count.ipynb)
  - [Basic Aggregation Sum](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/1.2_Basic_Aggregation_Sum.ipynb)
  - [Statistical Aggregations](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/2_Statistical_Aggregations.ipynb)
- - [Advanced Case Segmentation](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/3_Advanced_Case_Segmentation.ipynb)
+ - [Advanced Segmentation](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/3_Advanced_Segmentation.ipynb)
 
 ## Date Calculations Chapter
 
