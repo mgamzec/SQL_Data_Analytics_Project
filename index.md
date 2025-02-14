@@ -13,11 +13,11 @@
  - [Statistical Aggregations](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/2_Statistical_Aggregations.ipynb)
  - [Advanced Segmentation](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/3_Advanced_Segmentation.ipynb)
 
-## Date Calculations Chapter
+## Date Time Chapter
 
- - [Date Format](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/2_Date_Calculations/1_Date_Format.ipynb)
- - [Date Filtering](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/2_Date_Calculations/2_Date_Filtering.ipynb)
- - [Date Differences](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/2_Date_Calculations/3_Date_Differences.ipynb)
+ - [Date Format](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/2_Date_Time/1_Date_Format.ipynb)
+ - [Date Filtering](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/2_Date_Time/2_Date_Filtering.ipynb)
+ - [Date Differences](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/2_Date_Time/3_Date_Differences.ipynb)
 
 ## Windows Functions Chapter
 
