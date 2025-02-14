@@ -16,7 +16,7 @@
 ## Date Calculations Chapter
 
  - [Date Format](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/2_Date_Calculations/1_Date_Format.ipynb)
- - [Date Components](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/2_Date_Calculations/2_Date_Components.ipynb)
+ - [Date Filtering](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/2_Date_Calculations/2_Date_Filtering.ipynb)
  - [Date Differences](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/2_Date_Calculations/3_Date_Differences.ipynb)
 
 ## Windows Functions Chapter
