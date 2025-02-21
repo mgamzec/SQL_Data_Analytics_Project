@@ -15,7 +15,11 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 - Assigned customers to High, Mid, and Low-value segments
 - Calculated key metrics: order frequency, average order value, total revenue
 
+🖥️ Query: [example_query.sql](example_query.sql)
+
 **📈 Visualization:**
+
+![Customer Segmentation](2_example.png)
 
 📊 **Key Findings:**
 - High-value segment (20% of customers) drives 68% of revenue
@@ -27,7 +31,11 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 - Analyzed last purchase patterns
 - Calculated customer-specific metrics and warning indicators
 
+🖥️ Query: [example_query.sql](example_query.sql)
+
 **📈 Visualization:**
+
+![Retention Analysis](3_example.png)
 
 📊 **Key Findings:**
 - 30% of high-value customers showing decline
@@ -39,7 +47,11 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 - Analyzed lifetime value trends
 - Evaluated acquisition channel performance
 
+🖥️ Query: [example_query.sql](example_query.sql)
+
 **📈 Visualization:**
+
+![Cohort-Based LTV Analysis](4_example.png)
 
 📊 **Key Findings:**
 - 2023 cohorts: 25% higher LTV than 2022
