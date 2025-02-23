@@ -13,18 +13,18 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 ### 1. Customer Segmentation Analysis
 - Categorized customers based on total lifetime value (LTV)
 - Assigned customers to High, Mid, and Low-value segments
-- Calculated key metrics: order frequency, average order value, total revenue
+- Calculated key metrics: total revenue
 
-🖥️ Query: [example_query.sql](example_query.sql)
+🖥️ Query: [2.1_customer_segementation.sql](2.1_customer_segementation.sql)
 
 **📈 Visualization:**
 
-![Customer Segmentation](2_example.png)
+![Customer Segmentation](2.1_customer_segementation.png)
 
 📊 **Key Findings:**
-- High-value segment (20% of customers) drives 68% of revenue
-- Mid-value customers show 40% upgrade potential
-- Low-value segment: 25% conversion to mid-value
+- High-value segment (25% of customers) drives 66% of revenue ($135.4M)
+- Mid-value segment (50% of customers) generates 32% of revenue ($66.6M)
+- Low-value segment (25% of customers) accounts for 2% of revenue ($4.3M)
 
 ### 2. Retention Analysis
 - Identified customers at risk of churning
