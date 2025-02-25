@@ -35,7 +35,8 @@
 ## Views Chapter
 
  - [View Intro](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/5_Views/1_View_Intro.ipynb)
- - [View Project](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/5_Views/2_View_Project.ipynb)
+ - [Project Cohort Revenue](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/5_Views/2_Project_Cohort_Revenue.ipynb)
+ - [Install VSCode](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/5_Views/3_Install_VSCode.ipynb)
 
 ## Data Cleaning Chapter
 
@@ -49,5 +50,6 @@
 
 ## Project Chapter
 
- - [Final Project](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/8_Project/1_Final_Project.ipynb)
+ - [Customer Segementation](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/8_Project/1.1_Customer_Segementation.ipynb)
+ - [Customer Retention](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/8_Project/1.3_Customer_Retention.ipynb)
 
