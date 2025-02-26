@@ -1,11 +1,11 @@
-# Project Readme
+# Intermediate SQL - Sales Analysis
 
 ## Overview
 Analysis of customer behavior, retention, and lifetime value for an e-commerce company to improve customer retention and maximize revenue.
 
 ## Business Questions
 1. **Customer Segmentation:** Who are our most valuable customers?
-2. **Cohort Analysis:** How do different customer groups generate long-term revenue?
+2. **Cohort Analysis:** How do different customer groups generate revenue?
 3. **Retention Analysis:** Which customers haven't purchased recently?
 
 ## Analysis Approach
@@ -31,16 +31,37 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 - Mid-Value (32% revenue): Create upgrade paths through personalized promotions, with potential $66.6M → $135.4M revenue opportunity
 - Low-Value (2% revenue): Design re-engagement campaigns and price-sensitive promotions to increase purchase frequency
 
-### 2. Retention Analysis
-- Identified customers at risk of churning
-- Analyzed last purchase patterns
-- Calculated customer-specific metrics and warning indicators
+### 2. Cohort-Based LTV Analysis
+- Tracked revenue and customer count per cohorts
+- Cohorts were grouped by year of first purchase
+- Analyzed customer retention at a cohort level
 
 🖥️ Query: [2.2_cohort_ltv_over_time.sql](2.2_cohort_ltv_over_time.sql)
 
 **📈 Visualization:**
 
 ![Retention Analysis](2.2_cohort_ltv_over_time.png)
+
+📊 **Key Findings:**
+- Revenue per customer shows an alarming decreasing trend over time
+  - 2022-2024 cohorts are consistently performing worse than earlier cohorts
+  - NOTE: Although net revenue is increasing, this is likely due to a larger customer base, which is not reflective of customer value
+
+💡 **Business Insights**
+- Value extracted from customers is decreasing over time and needs further investigation.
+- In 2023 we saw a drop in number of customers acquired, which is concerning.
+- With both lowering LTV and decreasing customer acquisition, the company is facing a potential revenue decline.
+
+### 3. Retention Analysis
+- Identified customers at risk of churning
+- Analyzed last purchase patterns
+- Calculated customer-specific metrics and warning indicators
+
+🖥️ Query: [example_query.sql](example_query.sql)
+
+**📈 Visualization:**
+
+![Cohort-Based LTV Analysis](4_example.png)
 
 📊 **Key Findings:**
 - 2023 cohort shows highest first-year LTV ($1.2M avg/month)
@@ -54,22 +75,6 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 - Cohort Performance: 2023 cohort outperforming previous years by 9% in first-year value, suggesting successful acquisition strategies to replicate
 - Growth Patterns: Critical engagement window identified in months 4-8, requiring targeted campaigns during plateau periods
 - Revenue Optimization: Focus on first 3 months for customer engagement, followed by retention strategies for months 4-8 growth period
-
-### 3. Cohort-Based LTV Analysis
-- Tracked cumulative revenue per customer cohort
-- Analyzed lifetime value trends
-- Evaluated acquisition channel performance
-
-🖥️ Query: [example_query.sql](example_query.sql)
-
-**📈 Visualization:**
-
-![Cohort-Based LTV Analysis](4_example.png)
-
-📊 **Key Findings:**
-- 2023 cohorts: 25% higher LTV than 2022
-- Social media customers: 2x higher 12-month LTV
-- Holiday cohorts: 40% better retention
 
 ## Strategic Recommendations
 
