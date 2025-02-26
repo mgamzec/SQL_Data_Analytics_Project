@@ -2,7 +2,7 @@ WITH customer_ltv AS (
     SELECT
         customerkey,
         SUM(total_net_revenue) AS total_ltv
-    FROM cleaned_customer
+    FROM cohort_analysis
     GROUP BY customerkey
 ),
 

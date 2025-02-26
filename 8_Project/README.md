@@ -40,7 +40,7 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 
 **📈 Visualization:**
 
-![Retention Analysis](2.2_cohort_ltv_over_time.png)
+<img src="../Resources/images/5.2_customer_revenue_normalized.png" alt="Cohort Analysis" width="50%">
 
 📊 **Key Findings:**
 - Revenue per customer shows an alarming decreasing trend over time

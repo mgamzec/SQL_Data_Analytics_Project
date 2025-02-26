@@ -1,4 +1,4 @@
-CREATE VIEW cleaned_customer AS
+CREATE VIEW cohort_analysis AS
 WITH cohort_data AS (
     SELECT 
         s.customerkey,
