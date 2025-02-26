@@ -15,11 +15,11 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 - Assigned customers to High, Mid, and Low-value segments
 - Calculated key metrics: total revenue
 
-🖥️ Query: [2.1_customer_segementation.sql](2.1_customer_segementation.sql)
+🖥️ Query: [1_customer_segmentation.sql](1_customer_segmentation.sql)
 
 **📈 Visualization:**
 
-![Customer Segmentation](2.1_customer_segementation.png)
+<img src="../Resources/images/7.3_customer_segementation.png" alt="Customer Segmentation" width="50%">
 
 📊 **Key Findings:**
 - High-value segment (25% of customers) drives 66% of revenue ($135.4M)
@@ -36,7 +36,7 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 - Cohorts were grouped by year of first purchase
 - Analyzed customer retention at a cohort level
 
-🖥️ Query: [2.2_cohort_ltv_over_time.sql](2.2_cohort_ltv_over_time.sql)
+🖥️ Query: [2_cohort_ltv_over_time.sql](2_cohort_ltv_over_time.sql)
 
 **📈 Visualization:**
 
@@ -57,11 +57,11 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 - Analyzed last purchase patterns
 - Calculated customer-specific metrics and warning indicators
 
-🖥️ Query: [example_query.sql](example_query.sql)
+🖥️ Query: [3_retention_analysis.sql](3_retention_analysis.sql)
 
 **📈 Visualization:**
 
-![Cohort-Based LTV Analysis](4_example.png)
+<img src="delete_this_example_when_done.png" alt="Cohort Analysis" width="50%">
 
 📊 **Key Findings:**
 - 2023 cohort shows highest first-year LTV ($1.2M avg/month)
