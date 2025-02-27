@@ -31,26 +31,30 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 - Mid-Value (32% revenue): Create upgrade paths through personalized promotions, with potential $66.6M → $135.4M revenue opportunity
 - Low-Value (2% revenue): Design re-engagement campaigns and price-sensitive promotions to increase purchase frequency
 
-### 2. Cohort-Based LTV Analysis
+### 2. Customer Revenue by Cohort
 - Tracked revenue and customer count per cohorts
 - Cohorts were grouped by year of first purchase
-- Analyzed customer retention at a cohort level
+- Analyzed customer revenue at a cohort level
 
-🖥️ Query: [2_cohort_ltv_over_time.sql](2_cohort_ltv_over_time.sql)
+🖥️ Query: [2_cohort_analysis.sql](2_cohort_analysis.sql)
 
 **📈 Visualization:**
 
-<img src="../Resources/images/5.2_customer_revenue_normalized.png" alt="Cohort Analysis" width="50%">
+> ⚠️ Note: This only includes 2 charts. 
+
+Customer Revenue by Cohort (Adjusted for time in market) - First Purchase Date 
+
+<img src="../Resources/images/5.2_customer_revenue_normalized.png" alt="Customer Revenue Normalized" width="50%">
+
+Investigate Monthly Revenue & Customer Trends (3 Month Rolling Average)
+
+<img src="../Resources/images/5.2_monthly_revenue_customers_3mo.png" alt="Monthly Revenue & CustomerTrends" width="50%">  
 
 📊 **Key Findings:**
-- Revenue per customer shows an alarming decreasing trend over time
-  - 2022-2024 cohorts are consistently performing worse than earlier cohorts
-  - NOTE: Although net revenue is increasing, this is likely due to a larger customer base, which is not reflective of customer value
+- Text
 
 💡 **Business Insights**
-- Value extracted from customers is decreasing over time and needs further investigation.
-- In 2023 we saw a drop in number of customers acquired, which is concerning.
-- With both lowering LTV and decreasing customer acquisition, the company is facing a potential revenue decline.
+- Text
 
 ### 3. Retention Analysis
 - Identified customers at risk of churning
