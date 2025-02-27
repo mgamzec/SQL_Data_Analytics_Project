@@ -40,16 +40,17 @@
 
 ## Data Cleaning Chapter
 
- - [Handling Nulls](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/6_Data_Cleaning/1_Handling_Nulls.ipynb)
+ - [Conditional Handle Nulls](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/6_Data_Cleaning/1_Conditional_Handle_Nulls.ipynb)
  - [String Formatting](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/6_Data_Cleaning/2_String_Formatting.ipynb)
+ - [Project Customer Segementation](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/6_Data_Cleaning/3_Project_Customer_Segementation.ipynb)
 
 ## Basic Query Optimization Chapter
 
  - [Explain](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/7_Basic_Query_Optimization/1_Explain.ipynb)
  - [Basic Optimization](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/7_Basic_Query_Optimization/2_Basic_Optimization.ipynb)
+ - [Project Customer Retention](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/7_Basic_Query_Optimization/3_Project_Customer_Retention.ipynb)
 
 ## Project Chapter
 
- - [Customer Segementation](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/8_Project/1.1_Customer_Segementation.ipynb)
- - [Customer Retention](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/8_Project/1.3_Customer_Retention.ipynb)
+ - [Create Github Repo](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/8_Project/0_Create_Github_Repo.ipynb)
 
