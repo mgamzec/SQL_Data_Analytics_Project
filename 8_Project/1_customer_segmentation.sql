@@ -13,7 +13,6 @@ customer_segments AS (
     FROM customer_ltv
 ),
 
--- Put previous main query into a CTE
 segement_values AS (
     SELECT
         c.customerkey,
@@ -30,7 +29,9 @@ segement_values AS (
 SELECT
     customer_segment,
     SUM(total_ltv) AS total_ltv,
-    COUNT(customerkey) AS customer_count
+    SUM(total_ltv) / (SELECT SUM(total_ltv) FROM segement_values) AS ltv_percentage,
+    COUNT(customerkey) AS customer_count,
+    SUM(total_ltv) / COUNT(customerkey) AS avg_ltv
 FROM segement_values
 GROUP BY customer_segment
 ORDER BY total_ltv DESC
