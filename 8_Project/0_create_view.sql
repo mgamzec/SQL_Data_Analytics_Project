@@ -5,19 +5,15 @@ WITH customer_revenue AS (
 		s.orderdate,
 		SUM(s.quantity * s.netprice * s.exchangerate) AS total_net_revenue,
 		COUNT(s.orderkey) AS num_orders,
-		c.countryfull,
-		c.age,
-		c.givenname,
-		c.surname
+		MAX(c.countryfull) AS countryfull,
+		MAX(c.age) AS age,
+		MAX(c.givenname) AS givenname,
+		MAX(c.surname) AS surname
 	FROM sales s 
-	LEFT JOIN customer c ON c.customerkey = s.customerkey
+	INNER JOIN customer c ON c.customerkey = s.customerkey
 	GROUP BY
 		s.customerkey,
-		s.orderdate,
-		c.countryfull,
-		c.age,
-		c.givenname,
-		c.surname
+		s.orderdate
 ),
 
 cohort_data AS (
