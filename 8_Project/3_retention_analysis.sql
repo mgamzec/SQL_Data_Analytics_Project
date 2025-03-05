@@ -5,7 +5,7 @@ WITH customer_last_purchase AS (
         ROW_NUMBER() OVER (PARTITION BY customerkey ORDER BY orderdate DESC) AS rn,
         MIN(orderdate) OVER (PARTITION BY customerkey) AS first_purchase_date,
         EXTRACT(YEAR FROM MIN(orderdate) OVER (PARTITION BY customerkey)) AS cohort_year
-    FROM sales
+    FROM cohort_analysis
 ),
 churned_customers AS (
     SELECT
