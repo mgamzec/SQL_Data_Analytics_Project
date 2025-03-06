@@ -9,10 +9,54 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
 
 ## Table of Contents
 
-👷👷👷 Section Under Construction 👷👷👷
-> Note: Add Open in Colab button to each notebook.
+### 0. Intro
 
-1. [About the Course](0_Intro/1_About_Course.ipynb) - [Open in Colab](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/0_Intro/1_About_Course.ipynb)
+ - [About Course](0_Intro/1_About_Course.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/0_Intro/1_About_Course.ipynb)
+ - [Colab Notebooks](0_Intro/2_Colab_Notebooks.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/0_Intro/2_Colab_Notebooks.ipynb)
+ - [Database Overview](0_Intro/3_Database_Overview.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/0_Intro/3_Database_Overview.ipynb)
+
+### 1. Pivot With Case Statements
+
+ - [Basic Aggregation](1_Pivot_With_Case_Statements/1_Basic_Aggregation.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/1_Basic_Aggregation.ipynb)
+ - [Statistical Aggregations](1_Pivot_With_Case_Statements/2_Statistical_Aggregations.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/2_Statistical_Aggregations.ipynb)
+ - [Advanced Segmentation](1_Pivot_With_Case_Statements/3_Advanced_Segmentation.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/1_Pivot_With_Case_Statements/3_Advanced_Segmentation.ipynb)
+
+### 2. Date Time
+
+ - [Date Format](2_Date_Time/1_Date_Format.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/2_Date_Time/1_Date_Format.ipynb)
+ - [Date Filtering](2_Date_Time/2_Date_Filtering.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/2_Date_Time/2_Date_Filtering.ipynb)
+ - [Date Differences](2_Date_Time/3_Date_Differences.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/2_Date_Time/3_Date_Differences.ipynb)
+
+### 3. Windows Functions
+
+ - [Syntax](3_Windows_Functions/1_Syntax.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/3_Windows_Functions/1_Syntax.ipynb)
+ - [Aggregation](3_Windows_Functions/2_Aggregation.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/3_Windows_Functions/2_Aggregation.ipynb)
+ - [Ranking](3_Windows_Functions/3_Ranking.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/3_Windows_Functions/3_Ranking.ipynb)
+ - [Lag Lead](3_Windows_Functions/4_Lag_Lead.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/3_Windows_Functions/4_Lag_Lead.ipynb)
+ - [Frame Clause](3_Windows_Functions/5_Frame_Clause.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/3_Windows_Functions/5_Frame_Clause.ipynb)
+
+### 4. Local DB Setup
+
+ - [Install PostgreSQL](4_Local_DB_Setup/1_Install_PostgreSQL.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/4_Local_DB_Setup/1_Install_PostgreSQL.ipynb)
+ - [Install DBeaver](4_Local_DB_Setup/2_Install_DBeaver.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/4_Local_DB_Setup/2_Install_DBeaver.ipynb)
+
+### 5. Views
+
+ - [View Intro](5_Views/1_View_Intro.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/5_Views/1_View_Intro.ipynb)
+ - [Project Cohort Revenue](5_Views/2_Project_Cohort_Revenue.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/5_Views/2_Project_Cohort_Revenue.ipynb)
+ - [Install VSCode](5_Views/3_Install_VSCode.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/5_Views/3_Install_VSCode.ipynb)
+
+### 6. Data Cleaning
+
+ - [Conditional Handle Nulls](6_Data_Cleaning/1_Conditional_Handle_Nulls.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/6_Data_Cleaning/1_Conditional_Handle_Nulls.ipynb)
+ - [String Formatting](6_Data_Cleaning/2_String_Formatting.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/6_Data_Cleaning/2_String_Formatting.ipynb)
+ - [Project Customer Segementation](6_Data_Cleaning/3_Project_Customer_Segementation.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/6_Data_Cleaning/3_Project_Customer_Segementation.ipynb)
+
+### 7. Query Optimization
+
+ - [Explain Intro](7_Query_Optimization/1_Explain_Intro.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/7_Query_Optimization/1_Explain_Intro.ipynb)
+ - [Optimization Techniques](7_Query_Optimization/2_Optimization_Techniques.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/7_Query_Optimization/2_Optimization_Techniques.ipynb)
+ - [Project Customer Retention](7_Query_Optimization/3_Project_Customer_Retention.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/7_Query_Optimization/3_Project_Customer_Retention.ipynb)
 
 ## How to Run SQL Files
 ### Method 1️⃣: Run in Google Colab (Recommended)
@@ -20,9 +64,9 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
 - Google Account
 
 #### Steps:
-1. Click the "Open in Colab" button at top of any notebook.
-![Open in Colab](./Resources/images/open_in_colab.png)
-2. Run all cells in the notebook.
+1. Click the "Open in Colab" button at top of any notebook.  
+<img src="./Resources/images/open_in_colab.png" alt="Open in Colab" width="50%" height="auto">
+2. Run all cells in the notebook.  
 ---
 ### Method 2️⃣: Run Database Locally w/ PGAdmin
 *Note: Second half of course uses this method.*
@@ -36,7 +80,7 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
 3. In Object Explorer, connect to your PostgreSQL server.
 4. Right-click on "Databases" > "Create" > "Database...".  
 
-<img src="./Resources/images/pgAdmin_CreateDatabase.gif" alt="Create Database" width="25%" height="auto">
+<img src="./Resources/images/pgAdmin_CreateDatabase.gif" alt="Create Database" width="50%" height="auto">
 
 5. Enter `contoso_100k`for "Database" and click "Save".
 6. In Object Explorer, right-click on the `contoso_100k` database > "PSQL Tool".
