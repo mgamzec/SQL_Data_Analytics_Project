@@ -1,7 +1,7 @@
 # 📊 Intermediate SQL for Data Analytics - Full Course
 
 Data Nerds! This repo contains all the files needed to follow along my free course: [Intermediate SQL for Data Analytics](https://www.lukebarousse.com/int-sql)
-
+![alt text](./Resources/images/SQL_thumbnail.png)
 
 ## Team Members 👥
 **🙋🏼‍♂️ Course Leader:** [Luke Barousse](https://www.linkedin.com/in/luke-b)  
@@ -60,7 +60,8 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
  - [Project Customer Retention](7_Query_Optimization/3_Project_Customer_Retention.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/7_Query_Optimization/3_Project_Customer_Retention.ipynb)
 
 ## How to Run SQL Files
-### Method 1️⃣: Run in Google Colab (Recommended)
+### Method 1️⃣: Run in Google Colab
+> Recommended to start the course.
 #### Prerequisites:
 - Google Account
 
@@ -70,7 +71,7 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
 2. Run all cells in the notebook.  
 ---
 ### Method 2️⃣: Run Database Locally w/ PGAdmin
-*Note: Second half of course uses this method.*
+> Second half of course uses this method.
 #### Prerequisites:
 - [PostgreSQL Installed](https://www.postgresql.org/download/)
 - [pgAdmin Installed](https://www.pgadmin.org/download/)
@@ -95,7 +96,8 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
 > ALTER USER postgres WITH PASSWORD 'password';
 > ```
 ---
-### Method 3️⃣: Run SQL Locally in Jupyter Notebook (Advanced)
+### Method 3️⃣: Run SQL Locally in Jupyter Notebook
+> How Kelly & I built the course; not recommended for beginners.
 #### Prerequisites:
 - [PostgreSQL Installed](https://www.postgresql.org/download/)
 - [Anaconda Installed](https://www.anaconda.com/products/distribution)
