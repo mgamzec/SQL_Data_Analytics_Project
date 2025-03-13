@@ -18,9 +18,9 @@ segement_values AS (
         c.customerkey,
         c.total_ltv,
         CASE
-            WHEN c.total_ltv > percentile_75th THEN 'High-Value'
-            WHEN c.total_ltv BETWEEN percentile_25th AND percentile_75th THEN 'Mid-Value'
-            ELSE 'Low-Value'
+            WHEN c.total_ltv < percentile_25th THEN '1 - Low-Value'
+            WHEN c.total_ltv BETWEEN percentile_25th AND percentile_75th THEN '2 - Mid-Value'
+            ELSE '3 - High-Value'
         END AS customer_segment
     FROM customer_ltv c,
     customer_segments cs
