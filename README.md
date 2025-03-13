@@ -51,7 +51,7 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
 
  - [Conditional Handle Nulls](6_Data_Cleaning/1_Conditional_Handle_Nulls.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/6_Data_Cleaning/1_Conditional_Handle_Nulls.ipynb)
  - [String Formatting](6_Data_Cleaning/2_String_Formatting.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/6_Data_Cleaning/2_String_Formatting.ipynb)
- - [Project Customer Segementation](6_Data_Cleaning/3_Project_Customer_Segementation.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/6_Data_Cleaning/3_Project_Customer_Segementation.ipynb)
+ - [Project Customer Segmentation](6_Data_Cleaning/3_Project_Customer_Segmentation.ipynb) - [(Open in Colab)](https://colab.research.google.com/github/lukebarousse/Int_SQL_Data_Analytics_Course/blob/main/6_Data_Cleaning/3_Project_Customer_Segmentation.ipynb)
 
 ### 7. Query Optimization
 
