@@ -68,8 +68,10 @@ Data Nerds! This repo contains all the files needed to follow along my free cour
 #### Steps:
 1. Click the "Open in Colab" button at top of any notebook.  
 <img src="./Resources/images/open_in_colab.png" alt="Open in Colab" width="50%" height="auto">
-2. Run all cells in the notebook.  
+2. Run all cells in the notebook.   
+   
 ---
+
 ### Method 2️⃣: Run Database Locally w/ PGAdmin
 > Second half of course uses this method.
 #### Prerequisites:
